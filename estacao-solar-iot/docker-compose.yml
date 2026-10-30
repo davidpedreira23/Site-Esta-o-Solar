@@ -1,0 +1,37 @@
+# Sobe tudo com UM comando:  docker compose up --build
+#   Site .......... http://localhost:8080
+#   phpMyAdmin .... http://localhost:8081  (usuário: estacao / senha: estacao123)
+services:
+  web:
+    build: .
+    ports: ["8080:80"]
+    environment:
+      DB_HOST: db
+      DB_NAME: estacao_solar
+      DB_USER: estacao
+      DB_PASS: estacao123
+      APP_DEBUG: "1"
+    volumes: [".:/var/www/html"]
+    depends_on: [db]
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: root123
+      MYSQL_DATABASE: estacao_solar
+      MYSQL_USER: estacao
+      MYSQL_PASSWORD: estacao123
+    command: --default-time-zone=-03:00
+    volumes:
+      - dados_mysql:/var/lib/mysql
+      # Scripts da pasta são executados na 1ª vez, em ordem alfabética: schema.sql e depois seed.sql
+      - ./database:/docker-entrypoint-initdb.d:ro
+
+  phpmyadmin:
+    image: phpmyadmin:5
+    environment: { PMA_HOST: db }
+    ports: ["8081:80"]
+    depends_on: [db]
+
+volumes:
+  dados_mysql:

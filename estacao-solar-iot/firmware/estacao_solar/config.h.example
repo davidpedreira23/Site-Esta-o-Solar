@@ -1,0 +1,20 @@
+// ============================================================
+//  CONFIGURAÇÃO DO DISPOSITIVO
+//  1) Copie este arquivo para "config.h" (na mesma pasta)
+//  2) Preencha com os SEUS dados. O config.h não vai para o GitHub.
+// ============================================================
+
+#define WIFI_SSID     "NOME_DA_SUA_REDE"
+#define WIFI_PASSWORD "SENHA_DA_REDE"
+
+// Endereço da API. Use o IP do computador que roda o servidor (veja com "ipconfig" no Windows).
+// Celular e computador/ESP32 precisam estar na MESMA rede Wi-Fi.
+// Exemplo XAMPP:  "http://192.168.0.15/estacao-solar-iot/api/leituras"
+// Exemplo php -S: "http://192.168.0.15:8000/api/leituras"
+#define SERVER_URL    "http://192.168.0.15/estacao-solar-iot/api/leituras"
+
+// Chave da estação: copie da página da estação no painel (Estações > Ver)
+#define API_KEY       "estacao-solar-demo-0001"
+
+// De quanto em quanto tempo enviar uma leitura (milissegundos)
+#define INTERVALO_ENVIO_MS 10000
