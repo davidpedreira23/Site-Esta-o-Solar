@@ -1,10 +1,11 @@
-[README (1).md](https://github.com/user-attachments/files/34204500/README.1.md)
+[README (2).md](https://github.com/user-attachments/files/34214229/README.2.md)
 # ☀️ Estação Meteorológica Solar IoT
 
 Sistema web completo (PHP + MySQL) para a **Feira Tecnológica**, integrado a um dispositivo IoT real: uma **estação meteorológica alimentada por energia solar** baseada em ESP32. O dispositivo mede temperatura, umidade e luminosidade e envia os dados por Wi-Fi para o site, que armazena, exibe em tempo real e permite gerenciar tudo (CRUD).
 
 > **Equipe:** David Pedreira , Gabriel Ortega , Caio Novaes , Giulio Pimentel· **Turma/Curso: 2DS/ AMS
 > **🎥 Vídeo de apresentação:** https://www.youtube.com/watch?v=2fCWTA0aHSQ
+
 ---
 
 ## 📑 Sumário
@@ -58,17 +59,43 @@ flowchart LR
 
 ## 📸 Prints do projeto
 
-> ⚠️ **Substitua** os arquivos em `docs/img/` pelos prints reais (veja [`docs/CHECKLIST_ENTREGA.md`](docs/CHECKLIST_ENTREGA.md)).
+### Painel ao vivo (página inicial)
+Cards com a última leitura, estatísticas das últimas 24 h, status online/offline e gráficos que se atualizam sozinhos a cada 5 s.
 
-| Painel ao vivo | Estações |
-|---|---|
-| ![Dashboard](docs/img/01-dashboard.png) | ![Estações](docs/img/02-estacoes.png) |
-| **Detalhe da estação (chave da API)** | **Leituras** |
-| ![Detalhe](docs/img/03-estacao-detalhe.png) | ![Leituras](docs/img/04-leituras.png) |
-| **Visitantes (admin)** | **Cadastro público de visitante** |
-| ![Visitantes](docs/img/05-visitantes.png) | ![Cadastro](docs/img/06-cadastro-visitante.png) |
-| **Dispositivo montado** | **Banco no phpMyAdmin** |
-| ![Dispositivo](docs/img/07-dispositivo.jpg) | ![Banco](docs/img/08-banco.png) |
+![Painel ao vivo](docs/img/01-dashboard.png)
+
+### Gerenciamento de estações (CRUD)
+Lista com status, total de leituras e os botões **Ver / Editar / Excluir**.
+
+![Lista de estações](docs/img/02-estacoes.png)
+
+### Detalhe da estação e configuração do ESP32
+Mostra os dados da estação e a **chave de API** que o dispositivo usa para enviar as leituras.
+
+![Detalhe da estação](docs/img/03-estacao-detalhe.png)
+
+### Cadastro público de visitantes
+Formulário aberto a qualquer visitante da feira, com validação (nome e e-mail obrigatórios, e-mail único).
+
+![Cadastro de visitante](docs/img/06-cadastro-visitante.png)
+
+### Banco de dados no phpMyAdmin
+As 4 tabelas do modelo lógico (`estacoes`, `leituras`, `usuarios`, `visitantes`) em InnoDB, utf8mb4.
+
+![Banco de dados](docs/img/08-banco.png)
+
+<!--
+  ⏳ PRINTS PENDENTES: salve os arquivos em docs/img/ com estes nomes e remova as marcas de comentário.
+
+### Lista de leituras (CRUD)
+![Leituras](docs/img/04-leituras.png)
+
+### Lista de visitantes (área administrativa)
+![Visitantes](docs/img/05-visitantes.png)
+
+### Dispositivo montado
+![Dispositivo](docs/img/07-dispositivo.jpg)
+-->
 
 ---
 
