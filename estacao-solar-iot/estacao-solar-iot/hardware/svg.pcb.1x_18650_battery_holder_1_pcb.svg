@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<svg
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.2"
+  width="3.07in"
+  height="0.8in"
+  viewBox="0 0 3070 800"
+>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work
+        rdf:about="PCB footprint for single 18650 battery holder">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+          rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <dc:title/>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <desc>
+    <referenceFile>2x 18650 battery_a073d98e2829ed2513701f253b833ca9_1_pcb.svg</referenceFile>
+  </desc>
+  <desc>Fritzing footprint SVG</desc>
+  <g
+    id="silkscreen">
+    <rect
+      stroke="black"
+      stroke-width="10"
+      fill="none"
+      x="5"
+      y="5"
+      width="3060"
+      height="790"
+    />
+    <circle
+      stroke-width="10.4167"
+      r="59.055"
+      cy="395"
+      cx="447.122"
+    />
+    <circle
+      stroke-width="10.4167"
+      r="59.055"
+      cx="2636.886"
+      cy="395"
+    />
+  </g>
+  <g
+    id="copper1">
+    <g
+      id="copper0">
+      <circle
+        id="connector0pin"
+        fill="none"
+        stroke="#ffbf00"
+        stroke-width="20"
+        r="29"
+        cx="105"
+        cy="395"
+      />
+      <circle
+        id="connector1pin"
+        fill="none"
+        stroke-width="20"
+        stroke="#ffbf00"
+        r="29"
+        cx="2959.33"
+        cy="395"
+      />
+    </g>
+  </g>
+</svg>
