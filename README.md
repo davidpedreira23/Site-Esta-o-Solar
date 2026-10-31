@@ -68,22 +68,26 @@ Cards com a última leitura, estatísticas das últimas 24 h, status online/offl
 ### Gerenciamento de estações (CRUD)
 Lista com status, total de leituras e os botões **Ver / Editar / Excluir**.
 
-![Lista de estações](docs/img/02-estacoes.png)
+![Lista de estações](<img width="1918" height="905" alt="02-estacoes" src="https://github.com/user-attachments/assets/91ead4e8-0d07-440f-a455-aa58a6a866be" />
+)
 
 ### Detalhe da estação e configuração do ESP32
 Mostra os dados da estação e a **chave de API** que o dispositivo usa para enviar as leituras.
 
-![Detalhe da estação](docs/img/03-estacao-detalhe.png)
+![Detalhe da estação](<img width="1917" height="878" alt="03-estacao-detalhe" src="https://github.com/user-attachments/assets/b2f2ac40-8e54-4e7f-8093-3a197cacb098" />
+)
 
 ### Cadastro público de visitantes
 Formulário aberto a qualquer visitante da feira, com validação (nome e e-mail obrigatórios, e-mail único).
 
-![Cadastro de visitante](docs/img/06-cadastro-visitante.png)
+![Cadastro de visitante](<img width="1895" height="847" alt="06-cadastro-visitante" src="https://github.com/user-attachments/assets/c9b0d040-a805-4fb2-a021-dd10fa6b31cc" />
+)
 
 ### Banco de dados no phpMyAdmin
 As 4 tabelas do modelo lógico (`estacoes`, `leituras`, `usuarios`, `visitantes`) em InnoDB, utf8mb4.
 
-![Banco de dados](docs/img/08-banco.png)
+![Banco de dados](<img width="1901" height="907" alt="08-banco" src="https://github.com/user-attachments/assets/349df9ff-9026-4b45-a68c-f1ef124e1232" />
+)
 
 <!--
   ⏳ PRINTS PENDENTES: salve os arquivos em docs/img/ com estes nomes e remova as marcas de comentário.
