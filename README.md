@@ -62,7 +62,8 @@ flowchart LR
 ### Painel ao vivo (página inicial)
 Cards com a última leitura, estatísticas das últimas 24 h, status online/offline e gráficos que se atualizam sozinhos a cada 5 s.
 
-![Painel ao vivo](docs/img/01-dashboard.png)
+![Painel ao vivo](<img width="1918" height="916" alt="01-dashboard" src="https://github.com/user-attachments/assets/ad4695ed-8337-4efa-9839-683e899b5f79" />
+)
 
 ### Gerenciamento de estações (CRUD)
 Lista com status, total de leituras e os botões **Ver / Editar / Excluir**.
