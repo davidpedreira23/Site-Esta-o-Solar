@@ -1,5 +1,0 @@
-# Envia tudo que NÃO for arquivo/pasta real (css, js, imagens) para o index.php
-RewriteEngine On
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^ index.php [QSA,L]

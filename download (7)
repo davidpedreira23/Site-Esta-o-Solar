@@ -1,5 +1,0 @@
-.env
-firmware/estacao_solar/config.h
-*.log
-.DS_Store
-Thumbs.db
