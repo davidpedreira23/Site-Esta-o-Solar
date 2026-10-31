@@ -1,10 +1,9 @@
-[README (2).md](https://github.com/user-attachments/files/34214229/README.2.md)
 # ☀️ Estação Meteorológica Solar IoT
 
 Sistema web completo (PHP + MySQL) para a **Feira Tecnológica**, integrado a um dispositivo IoT real: uma **estação meteorológica alimentada por energia solar** baseada em ESP32. O dispositivo mede temperatura, umidade e luminosidade e envia os dados por Wi-Fi para o site, que armazena, exibe em tempo real e permite gerenciar tudo (CRUD).
 
-> **Equipe:** David Pedreira , Gabriel Ortega , Caio Novaes , Giulio Pimentel· **Turma/Curso: 2DS/ AMS
-> **🎥 Vídeo de apresentação:** https://www.youtube.com/watch?v=2fCWTA0aHSQ
+> **Equipe:** _Nome 1, Nome 2, Nome 3, Nome 4, Nome 5_ · **Turma/Curso:** _preencher_
+> **🎥 Vídeo de apresentação:** _[colar o link do YouTube aqui]_
 
 ---
 
